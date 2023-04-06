@@ -1,3 +1,9 @@
+import sys
+import subprocess
+
+subprocess.check_call([sys.executable, "-m", "pip", "install", "torch"])
+
+
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 
