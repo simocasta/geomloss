@@ -2,7 +2,7 @@ import sys
 import subprocess
 
 # Upgrade pip
-subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
+#subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
 
 # Install torch
 subprocess.check_call([sys.executable, "-m", "pip", "install", "torch"])
